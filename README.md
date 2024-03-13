@@ -12,13 +12,8 @@
 - 🌿&emsp;I love to read books and as well as spend some time in my little garden.
 - 📧&emsp;How to reach me: md.rubel007@hotmail.com.<br/>
 
+
+
 <p style="font-size:20px ;">⚙️𝐓𝐡𝐢𝐧𝐠𝐬 𝐈 𝐜𝐨𝐝𝐞 𝐰𝐢𝐭𝐡</p>
 
 [![Javascript Badge](https://img.shields.io/badge/-Javascript-F0DB4F?style=for-the-badge&labelColor=black&logo=javascript&logoColor=F0DB4F)](#) [![React Badge](https://img.shields.io/badge/-React-61DBFB?style=for-the-badge&labelColor=black&logo=react&logoColor=61DBFB)](#) [![Next.js Badge](https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)](#) [![Nodejs Badge](https://img.shields.io/badge/-Nodejs-3C873A?style=for-the-badge&labelColor=black&logo=node.js&logoColor=3C873A)](#) [![Express.js Badge](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)](#) [![MongoDB Badge](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)](#) [![Tailwind Badge](https://img.shields.io/badge/Tailwind%20CSS-092749?style=for-the-badge&logo=tailwindcss&logoColor=06B6D4&labelColor=000000)](#) [![Git Badge](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)](#)
-
-<details>
-
-![Contribution](https://activity-graph.herokuapp.com/graph?username=mohammodrubel&theme=gotham&hide_border=true&area=true)
-
-
-</details>
