@@ -39,7 +39,7 @@
 <img height="180" src="https://github-readme-stats.vercel.app/api?username=mohammodrubel&show_icons=true&theme=tokyonight&bg_color=0a0f1f&title_color=22d3ee&icon_color=8b5cf6&text_color=cbd5e1&border_color=1e2a52&hide_border=false&count_private=true&include_all_commits=true&rank_icon=github" alt="GitHub stats"/>
 <img height="180" src="https://streak-stats.demolab.com/?user=mohammodrubel&theme=tokyonight&background=0a0f1f&ring=22d3ee&fire=f472b6&currStreakLabel=22d3ee&border=1e2a52&hide_border=false" alt="GitHub streak"/>
 
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=mohammodrubel&bg_color=0a0f1f&color=22d3ee&line=8b5cf6&point=f472b6&area=true&area_color=8b5cf6&hide_border=true&title_color=22d3ee&custom_title=Contribution%20Activity" alt="Contribution activity graph"/>
+<img width="100%" src="https://ghchart.rshah.org/22d3ee/mohammodrubel" alt="Contribution calendar for mohammodrubel"/>
 
 </div>
 
