@@ -1,456 +1,115 @@
-// app/dashboard/_dashboard_components/_GenarateResumeComponents/PdfTemplates.tsx
-import React from 'react';
-import {
-  Document,
-  Page,
-  Text,
-  View,
-  StyleSheet,
-  Font,
-} from '@react-pdf/renderer';
-import { Resume } from '@/lib/resume';
+<div align="center">
 
-Font.register({
-  family: 'Helvetica',
-  fonts: [
-    { src: 'https://fonts.gstatic.com/s/helveticaneue/v70/1Ptsg8zYS_SKggPNyCg4QIFqPfE.ttf', fontWeight: 400 },
-    { src: 'https://fonts.gstatic.com/s/helveticaneue/v70/1Ptsg8zYS_SKggPNyCg4TYFqPfE.ttf', fontWeight: 700 },
-  ],
-});
+<img src="assets/hero.svg" alt="Md Rubel — Full-Stack Web Developer" width="100%"/>
 
-Font.register({
-  family: 'Courier',
-  fonts: [
-    { src: 'https://fonts.gstatic.com/s/courierprime/v9/u-450q2lgwslOqpF_6gQ8kELWwZjW-8.ttf', fontWeight: 400 },
-  ],
-});
+<br/>
 
-// ─── TEMPLATE 1: EXECUTIVE ───────────────────────────────────────────────────
-// A bold two-column executive layout with a deep navy sidebar and gold accents.
-// Inspired by high-end print design — clean rule lines, strong type hierarchy.
-export const ModernTemplate = ({ resume }: { resume: Resume }) => {
-  const NAVY = '#0D1B2A';
-  const GOLD = '#C9A84C';
-  const GOLD_LIGHT = '#E8C97A';
-  const SIDEBAR_TEXT = '#C8D6E5';
-  const SIDEBAR_MUTED = '#6E8CAA';
-  const BODY_DARK = '#1A2533';
-  const BODY_MID = '#4A5568';
-  const BODY_LIGHT = '#718096';
-  const PAGE_BG = '#F7F6F2';
+<a href="https://md-rubel-me-bice.vercel.app/"><img src="https://img.shields.io/badge/PORTFOLIO-0a0f1f?style=for-the-badge&logo=vercel&logoColor=22d3ee&labelColor=0a0f1f&color=22d3ee" alt="Portfolio"/></a>
+<a href="https://github.com/mohammodrubel"><img src="https://img.shields.io/badge/GITHUB-0a0f1f?style=for-the-badge&logo=github&logoColor=8b5cf6&labelColor=0a0f1f&color=8b5cf6" alt="GitHub"/></a>
+<a href="https://www.linkedin.com/in/mohammodrubel00/"><img src="https://img.shields.io/badge/LINKEDIN-0a0f1f?style=for-the-badge&logo=linkedin&logoColor=60a5fa&labelColor=0a0f1f&color=60a5fa" alt="LinkedIn"/></a>
+<a href="mailto:md.rubel007@hotmail.com"><img src="https://img.shields.io/badge/EMAIL-0a0f1f?style=for-the-badge&logo=microsoftoutlook&logoColor=f472b6&labelColor=0a0f1f&color=f472b6" alt="Email"/></a>
 
-  const styles = StyleSheet.create({
-    page: { flexDirection: 'row', backgroundColor: PAGE_BG, fontFamily: 'Helvetica' },
-    sidebar: { width: '32%', backgroundColor: NAVY, paddingVertical: 44, paddingHorizontal: 28 },
-    main: { width: '68%', paddingVertical: 44, paddingHorizontal: 36 },
+<br/><br/>
 
-    // Sidebar
-    sName: { fontSize: 20, fontWeight: 'bold', color: '#FFFFFF', lineHeight: 1.2, marginBottom: 6 },
-    sHeadline: { fontSize: 9, color: GOLD, letterSpacing: 2, textTransform: 'uppercase', marginBottom: 24 },
-    sDivider: { height: 1, backgroundColor: GOLD, marginBottom: 20, opacity: 0.4 },
-    sSectionLabel: { fontSize: 7, letterSpacing: 3, color: GOLD, textTransform: 'uppercase', marginBottom: 12, fontWeight: 'bold' },
-    sContactRow: { flexDirection: 'row', marginBottom: 8, alignItems: 'flex-start' },
-    sContactDot: { width: 4, height: 4, borderRadius: 2, backgroundColor: GOLD, marginTop: 4, marginRight: 8 },
-    sContactText: { fontSize: 9, color: SIDEBAR_TEXT, flex: 1, lineHeight: 1.5 },
-    sSkillRow: { flexDirection: 'row', alignItems: 'center', marginBottom: 7 },
-    sSkillDot: { width: 3, height: 3, borderRadius: 2, backgroundColor: GOLD_LIGHT, marginRight: 8 },
-    sSkillText: { fontSize: 10, color: SIDEBAR_TEXT },
+<img src="https://komarev.com/ghpvc/?username=mohammodrubel&label=PROFILE%20VIEWS&color=8b5cf6&style=flat-square&labelColor=0a0f1f" alt="Profile views"/>
 
-    // Main
-    mSectionLabel: {
-      fontSize: 7, letterSpacing: 3, color: GOLD, textTransform: 'uppercase',
-      fontWeight: 'bold', marginBottom: 14,
-      borderBottomWidth: 1, borderBottomColor: GOLD, paddingBottom: 6,
-    },
-    mSummary: { fontSize: 11, color: BODY_MID, lineHeight: 1.8, marginBottom: 28 },
-    expItem: { marginBottom: 20, paddingLeft: 14, borderLeftWidth: 2, borderLeftColor: '#D8D3C8' },
-    expHeader: { flexDirection: 'row', justifyContent: 'space-between', marginBottom: 2 },
-    expTitle: { fontSize: 13, fontWeight: 'bold', color: BODY_DARK },
-    expDate: { fontSize: 8, color: GOLD, fontWeight: 'bold', letterSpacing: 1 },
-    expCompany: { fontSize: 10, color: BODY_LIGHT, textTransform: 'uppercase', letterSpacing: 1.2, marginBottom: 6 },
-    expDesc: { fontSize: 10, color: BODY_MID, lineHeight: 1.7 },
-    eduItem: { marginBottom: 16 },
-    eduHeader: { flexDirection: 'row', justifyContent: 'space-between', marginBottom: 2 },
-    eduDegree: { fontSize: 12, fontWeight: 'bold', color: BODY_DARK },
-    eduDate: { fontSize: 8, color: BODY_LIGHT, letterSpacing: 1 },
-    eduSchool: { fontSize: 10, color: BODY_LIGHT, textTransform: 'uppercase', letterSpacing: 1 },
-  });
+</div>
 
-  return (
-    <Page size="LETTER" style={styles.page}>
-      <View style={styles.sidebar}>
-        <Text style={styles.sName}>{resume.personalInfo.fullName || 'Your Name'}</Text>
-        {resume.professional.headline && (
-          <Text style={styles.sHeadline}>{resume.professional.headline}</Text>
-        )}
-        <View style={styles.sDivider} />
+<br/>
 
-        <Text style={styles.sSectionLabel}>Contact</Text>
-        {resume.personalInfo.email && (
-          <View style={styles.sContactRow}>
-            <View style={styles.sContactDot} />
-            <Text style={styles.sContactText}>{resume.personalInfo.email}</Text>
-          </View>
-        )}
-        {resume.personalInfo.phone && (
-          <View style={styles.sContactRow}>
-            <View style={styles.sContactDot} />
-            <Text style={styles.sContactText}>{resume.personalInfo.phone}</Text>
-          </View>
-        )}
-        {resume.personalInfo.location && (
-          <View style={styles.sContactRow}>
-            <View style={styles.sContactDot} />
-            <Text style={styles.sContactText}>{resume.personalInfo.location}</Text>
-          </View>
-        )}
-        {resume.personalInfo.website && (
-          <View style={styles.sContactRow}>
-            <View style={styles.sContactDot} />
-            <Text style={styles.sContactText}>{resume.personalInfo.website}</Text>
-          </View>
-        )}
-        {resume.personalInfo.linkedin && (
-          <View style={styles.sContactRow}>
-            <View style={styles.sContactDot} />
-            <Text style={styles.sContactText}>{resume.personalInfo.linkedin}</Text>
-          </View>
-        )}
+<div align="center"><img src="assets/h-about.svg" width="100%" alt="About"/></div>
+<div align="center"><img src="assets/about.svg" width="100%" alt="Developer profile card"/></div>
 
-        {resume.skills.length > 0 && (
-          <View style={{ marginTop: 28 }}>
-            <View style={styles.sDivider} />
-            <Text style={styles.sSectionLabel}>Expertise</Text>
-            {resume.skills.map((skill, i) => (
-              <View key={i} style={styles.sSkillRow}>
-                <View style={styles.sSkillDot} />
-                <Text style={styles.sSkillText}>{skill}</Text>
-              </View>
-            ))}
-          </View>
-        )}
-      </View>
+<br/>
 
-      <View style={styles.main}>
-        {resume.professional.summary && (
-          <View style={{ marginBottom: 28 }}>
-            <Text style={styles.mSectionLabel}>Profile</Text>
-            <Text style={styles.mSummary}>{resume.professional.summary}</Text>
-          </View>
-        )}
+<div align="center"><img src="assets/h-stack.svg" width="100%" alt="Tech Stack"/></div>
+<div align="center"><img src="assets/stack.svg" width="100%" alt="Tech stack: frontend, backend, database, ORM/ODM, tools"/></div>
 
-        {resume.experience.length > 0 && (
-          <View style={{ marginBottom: 28 }}>
-            <Text style={styles.mSectionLabel}>Experience</Text>
-            {resume.experience.map((job) => (
-              <View key={job.id} style={styles.expItem}>
-                <View style={styles.expHeader}>
-                  <Text style={styles.expTitle}>{job.position}</Text>
-                  <Text style={styles.expDate}>
-                    {job.startDate} – {job.current ? 'Present' : job.endDate}
-                  </Text>
-                </View>
-                <Text style={styles.expCompany}>{job.company}</Text>
-                {job.description && <Text style={styles.expDesc}>{job.description}</Text>}
-              </View>
-            ))}
-          </View>
-        )}
+<br/>
 
-        {resume.education.length > 0 && (
-          <View>
-            <Text style={styles.mSectionLabel}>Education</Text>
-            {resume.education.map((edu) => (
-              <View key={edu.id} style={styles.eduItem}>
-                <View style={styles.eduHeader}>
-                  <Text style={styles.eduDegree}>{edu.degree} in {edu.field}</Text>
-                  <Text style={styles.eduDate}>{edu.graduationDate}</Text>
-                </View>
-                <Text style={styles.eduSchool}>{edu.school}</Text>
-                {edu.description && <Text style={styles.expDesc}>{edu.description}</Text>}
-              </View>
-            ))}
-          </View>
-        )}
-      </View>
-    </Page>
-  );
-};
+<div align="center"><img src="assets/h-orbit.svg" width="100%" alt="Technology Orbit"/></div>
+<div align="center"><img src="assets/orbit.svg" width="100%" alt="Animated technology orbit around Md Rubel"/></div>
 
-// ─── TEMPLATE 2: EDITORIAL ────────────────────────────────────────────────────
-// A magazine-editorial style. Large oversized name, terracotta accents,
-// clean serif-inspired hierarchy, and generous white space.
-export const ClassicTemplate = ({ resume }: { resume: Resume }) => {
-  const TERRA = '#B85C38';
-  const TERRA_LIGHT = '#D4795A';
-  const INK = '#1C1009';
-  const INK_MID = '#4A3728';
-  const INK_LIGHT = '#8C7B6E';
-  const PAGE_BG = '#FDFAF5';
-  const RULE = '#D9CFC4';
+<br/>
 
-  const styles = StyleSheet.create({
-    page: { backgroundColor: PAGE_BG, paddingHorizontal: 52, paddingVertical: 48, fontFamily: 'Helvetica' },
+<div align="center"><img src="assets/h-stats.svg" width="100%" alt="GitHub Dashboard"/></div>
 
-    // Header — full width, oversized name
-    header: { marginBottom: 32 },
-    topBar: { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'flex-end', marginBottom: 12 },
-    name: { fontSize: 42, fontWeight: 'bold', color: INK, letterSpacing: -1, lineHeight: 1 },
-    headlineCol: { alignItems: 'flex-end' },
-    headline: { fontSize: 10, color: TERRA, textTransform: 'uppercase', letterSpacing: 2 },
-    headerRule: { height: 2, backgroundColor: INK, marginBottom: 10 },
-    contactRow: { flexDirection: 'row', gap: 20, fontSize: 8.5, color: INK_LIGHT, letterSpacing: 0.5 },
+<div align="center">
 
-    // Sections
-    twoCol: { flexDirection: 'row', gap: 28 },
-    mainCol: { flex: 2 },
-    sideCol: { flex: 1 },
+<img height="180" src="https://github-readme-stats.vercel.app/api?username=mohammodrubel&show_icons=true&theme=tokyonight&bg_color=0a0f1f&title_color=22d3ee&icon_color=8b5cf6&text_color=cbd5e1&border_color=1e2a52&hide_border=false&count_private=true&include_all_commits=true&rank_icon=github" alt="GitHub stats"/>
+<img height="180" src="https://streak-stats.demolab.com/?user=mohammodrubel&theme=tokyonight&background=0a0f1f&ring=22d3ee&fire=f472b6&currStreakLabel=22d3ee&border=1e2a52&hide_border=false" alt="GitHub streak"/>
 
-    sectionLabel: {
-      fontSize: 7.5, letterSpacing: 3.5, textTransform: 'uppercase',
-      color: TERRA, fontWeight: 'bold', marginBottom: 12,
-    },
-    thinRule: { height: 0.5, backgroundColor: RULE, marginBottom: 14 },
+<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=mohammodrubel&bg_color=0a0f1f&color=22d3ee&line=8b5cf6&point=f472b6&area=true&area_color=8b5cf6&hide_border=true&title_color=22d3ee&custom_title=Contribution%20Activity" alt="Contribution activity graph"/>
 
-    summary: { fontSize: 11.5, color: INK_MID, lineHeight: 1.9, marginBottom: 28 },
+</div>
 
-    expItem: { marginBottom: 18 },
-    expHeader: { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'baseline', marginBottom: 3 },
-    expTitle: { fontSize: 13, fontWeight: 'bold', color: INK },
-    expDate: { fontSize: 8, color: INK_LIGHT, letterSpacing: 0.8 },
-    expCompany: { fontSize: 9.5, color: TERRA_LIGHT, fontWeight: 'bold', textTransform: 'uppercase', letterSpacing: 1.5, marginBottom: 5 },
-    expDesc: { fontSize: 10.5, color: INK_MID, lineHeight: 1.75 },
+<div align="center">
+<sub>Live cards — they read directly from GitHub each time this page loads.</sub>
+</div>
 
-    skillPill: {
-      fontSize: 9, color: TERRA, borderWidth: 0.5, borderColor: TERRA,
-      paddingHorizontal: 10, paddingVertical: 4, marginBottom: 6, marginRight: 5,
-    },
-    skillsWrap: { flexDirection: 'row', flexWrap: 'wrap' },
+<br/>
 
-    eduItem: { marginBottom: 14 },
-    eduDegree: { fontSize: 11, fontWeight: 'bold', color: INK, marginBottom: 2 },
-    eduMeta: { fontSize: 9, color: INK_LIGHT },
-  });
+<div align="center"><img src="assets/h-langs.svg" width="100%" alt="Languages I Use"/></div>
 
-  return (
-    <Page size="LETTER" style={styles.page}>
-      <View style={styles.header}>
-        <View style={styles.topBar}>
-          <Text style={styles.name}>{resume.personalInfo.fullName || 'Your Name'}</Text>
-          {resume.professional.headline && (
-            <View style={styles.headlineCol}>
-              <Text style={styles.headline}>{resume.professional.headline}</Text>
-            </View>
-          )}
-        </View>
-        <View style={styles.headerRule} />
-        <View style={styles.contactRow}>
-          {resume.personalInfo.email && <Text>{resume.personalInfo.email}</Text>}
-          {resume.personalInfo.phone && <Text>{resume.personalInfo.phone}</Text>}
-          {resume.personalInfo.location && <Text>{resume.personalInfo.location}</Text>}
-          {resume.personalInfo.website && <Text>{resume.personalInfo.website}</Text>}
-          {resume.personalInfo.linkedin && <Text>{resume.personalInfo.linkedin}</Text>}
-        </View>
-      </View>
+<div align="center">
 
-      {resume.professional.summary && (
-        <View style={{ marginBottom: 28 }}>
-          <Text style={styles.sectionLabel}>Profile</Text>
-          <View style={styles.thinRule} />
-          <Text style={styles.summary}>{resume.professional.summary}</Text>
-        </View>
-      )}
+<img height="190" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mohammodrubel&layout=compact&langs_count=8&theme=tokyonight&bg_color=0a0f1f&title_color=22d3ee&text_color=cbd5e1&border_color=1e2a52&hide_border=false" alt="Top languages"/>
 
-      <View style={styles.twoCol}>
-        <View style={styles.mainCol}>
-          {resume.experience.length > 0 && (
-            <View style={{ marginBottom: 24 }}>
-              <Text style={styles.sectionLabel}>Experience</Text>
-              <View style={styles.thinRule} />
-              {resume.experience.map((job) => (
-                <View key={job.id} style={styles.expItem}>
-                  <View style={styles.expHeader}>
-                    <Text style={styles.expTitle}>{job.position}</Text>
-                    <Text style={styles.expDate}>
-                      {job.startDate} – {job.current ? 'Present' : job.endDate}
-                    </Text>
-                  </View>
-                  <Text style={styles.expCompany}>{job.company}</Text>
-                  {job.description && <Text style={styles.expDesc}>{job.description}</Text>}
-                </View>
-              ))}
-            </View>
-          )}
-        </View>
+</div>
 
-        <View style={styles.sideCol}>
-          {resume.skills.length > 0 && (
-            <View style={{ marginBottom: 24 }}>
-              <Text style={styles.sectionLabel}>Skills</Text>
-              <View style={styles.thinRule} />
-              <View style={styles.skillsWrap}>
-                {resume.skills.map((skill, i) => (
-                  <Text key={i} style={styles.skillPill}>{skill}</Text>
-                ))}
-              </View>
-            </View>
-          )}
+<br/>
 
-          {resume.education.length > 0 && (
-            <View>
-              <Text style={styles.sectionLabel}>Education</Text>
-              <View style={styles.thinRule} />
-              {resume.education.map((edu) => (
-                <View key={edu.id} style={styles.eduItem}>
-                  <Text style={styles.eduDegree}>{edu.degree} in {edu.field}</Text>
-                  <Text style={styles.eduMeta}>{edu.school}</Text>
-                  <Text style={styles.eduMeta}>{edu.graduationDate}</Text>
-                  {edu.description && <Text style={{ ...styles.expDesc, marginTop: 4 }}>{edu.description}</Text>}
-                </View>
-              ))}
-            </View>
-          )}
-        </View>
-      </View>
-    </Page>
-  );
-};
+<div align="center"><img src="assets/h-data.svg" width="100%" alt="Databases and Data"/></div>
+<div align="center"><img src="assets/databases.svg" width="100%" alt="PostgreSQL with Prisma ORM, MongoDB with Mongoose ODM"/></div>
 
-// ─── TEMPLATE 3: MINIMALIST PRO ───────────────────────────────────────────────
-// Ultra-clean Swiss/Bauhaus-inspired. Pure white, ink-black type, emerald green
-// accents only for key labels. Every pixel intentional.
-export const MinimalTemplate = ({ resume }: { resume: Resume }) => {
-  const EMERALD = '#0D6E4F';
-  const EMERALD_LIGHT = '#16A37A';
-  const INK = '#0A0A0A';
-  const MID = '#3D3D3D';
-  const MUTED = '#888888';
-  const RULE = '#E0E0E0';
+<br/>
 
-  const styles = StyleSheet.create({
-    page: { backgroundColor: '#FFFFFF', paddingHorizontal: 48, paddingVertical: 50, fontFamily: 'Helvetica' },
+<div align="center"><img src="assets/h-projects.svg" width="100%" alt="Featured Projects"/></div>
 
-    // Header
-    header: { marginBottom: 36 },
-    name: { fontSize: 36, fontWeight: 'bold', color: INK, letterSpacing: -1.5, marginBottom: 6 },
-    headlineRow: { flexDirection: 'row', alignItems: 'center', gap: 10, marginBottom: 18 },
-    headlineBar: { width: 24, height: 2, backgroundColor: EMERALD },
-    headlineText: { fontSize: 10, color: EMERALD, textTransform: 'uppercase', letterSpacing: 2 },
-    contactRow: { flexDirection: 'row', flexWrap: 'wrap', gap: 18 },
-    contactItem: { fontSize: 9, color: MUTED, fontFamily: 'Courier' },
+<div align="center">
+<table>
+  <tr>
+    <td align="center" width="33%">
+      <img src="assets/p1.svg" width="100%" alt="BSSAJ"/><br/>
+      <a href="https://bssaj.org/"><img src="https://img.shields.io/badge/LIVE%20DEMO-0a0f1f?style=for-the-badge&logo=googlechrome&logoColor=22d3ee&color=22d3ee" alt="BSSAJ live demo"/></a>
+    </td>
+    <td align="center" width="33%">
+      <img src="assets/p2.svg" width="100%" alt="SolveMeet"/><br/>
+      <a href="https://www.solvemeet.com/"><img src="https://img.shields.io/badge/LIVE%20DEMO-0a0f1f?style=for-the-badge&logo=googlechrome&logoColor=8b5cf6&color=8b5cf6" alt="SolveMeet live demo"/></a>
+    </td>
+    <td align="center" width="33%">
+      <img src="assets/p3.svg" width="100%" alt="Memory and Stories"/><br/>
+      <a href="https://memoryandstories.com/"><img src="https://img.shields.io/badge/LIVE%20DEMO-0a0f1f?style=for-the-badge&logo=googlechrome&logoColor=f472b6&color=f472b6" alt="Memory and Stories live demo"/></a>
+    </td>
+  </tr>
+</table>
+</div>
 
-    rule: { height: 0.5, backgroundColor: RULE, marginBottom: 20, marginTop: 2 },
+<br/>
 
-    // Sections
-    section: { marginBottom: 26 },
-    sLabel: {
-      fontSize: 7, letterSpacing: 4, textTransform: 'uppercase',
-      color: EMERALD, fontWeight: 'bold', marginBottom: 14,
-    },
+<div align="center"><img src="assets/h-exp.svg" width="100%" alt="Experience"/></div>
+<div align="center"><img src="assets/experience.svg" width="100%" alt="Career timeline: Web Code Care, Cynocraft"/></div>
 
-    summary: { fontSize: 11, color: MID, lineHeight: 1.85 },
+<br/>
 
-    // Two-column layout
-    twoCol: { flexDirection: 'row', gap: 36 },
-    mainCol: { flex: 3 },
-    sideCol: { flex: 1.5 },
+<div align="center"><img src="assets/h-highlights.svg" width="100%" alt="Highlights"/></div>
+<div align="center"><img src="assets/highlights.svg" width="100%" alt="Highlights: years of experience, live sites, repositories, GitHub achievements"/></div>
 
-    expItem: { marginBottom: 18, paddingBottom: 18, borderBottomWidth: 0.5, borderBottomColor: RULE },
-    expHeader: { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'baseline', marginBottom: 2 },
-    expTitle: { fontSize: 12.5, fontWeight: 'bold', color: INK },
-    expDate: { fontSize: 8, color: MUTED, fontFamily: 'Courier' },
-    expCompany: { fontSize: 9, color: EMERALD_LIGHT, fontWeight: 'bold', textTransform: 'uppercase', letterSpacing: 1.5, marginBottom: 6 },
-    expDesc: { fontSize: 10, color: MID, lineHeight: 1.7 },
+<br/>
 
-    skillTag: {
-      fontSize: 9, color: MID, borderWidth: 0.5, borderColor: RULE,
-      paddingHorizontal: 8, paddingVertical: 3, marginBottom: 5, marginRight: 4,
-      fontFamily: 'Courier',
-    },
-    skillsWrap: { flexDirection: 'row', flexWrap: 'wrap' },
+<div align="center"><img src="assets/h-connect.svg" width="100%" alt="Connect"/></div>
 
-    eduItem: { marginBottom: 14 },
-    eduDegree: { fontSize: 11, fontWeight: 'bold', color: INK, marginBottom: 2 },
-    eduSchool: { fontSize: 9, color: MUTED, marginBottom: 1 },
-    eduDate: { fontSize: 8, color: MUTED, fontFamily: 'Courier' },
-  });
+<div align="center">
 
-  return (
-    <Page size="LETTER" style={styles.page}>
-      <View style={styles.header}>
-        <Text style={styles.name}>{resume.personalInfo.fullName || 'Your Name'}</Text>
-        {resume.professional.headline && (
-          <View style={styles.headlineRow}>
-            <View style={styles.headlineBar} />
-            <Text style={styles.headlineText}>{resume.professional.headline}</Text>
-          </View>
-        )}
-        <View style={styles.contactRow}>
-          {resume.personalInfo.email && <Text style={styles.contactItem}>{resume.personalInfo.email}</Text>}
-          {resume.personalInfo.phone && <Text style={styles.contactItem}>{resume.personalInfo.phone}</Text>}
-          {resume.personalInfo.location && <Text style={styles.contactItem}>{resume.personalInfo.location}</Text>}
-          {resume.personalInfo.website && <Text style={styles.contactItem}>{resume.personalInfo.website}</Text>}
-          {resume.personalInfo.linkedin && <Text style={styles.contactItem}>{resume.personalInfo.linkedin}</Text>}
-        </View>
-      </View>
+<a href="https://md-rubel-me-bice.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-md--rubel--me--bice.vercel.app-22d3ee?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0a0f1f" alt="Portfolio"/></a>
+<a href="https://github.com/mohammodrubel"><img src="https://img.shields.io/badge/GitHub-mohammodrubel-8b5cf6?style=for-the-badge&logo=github&logoColor=white&labelColor=0a0f1f" alt="GitHub"/></a>
+<br/>
+<a href="https://www.linkedin.com/in/mohammodrubel00/"><img src="https://img.shields.io/badge/LinkedIn-mohammodrubel00-60a5fa?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0a0f1f" alt="LinkedIn"/></a>
+<a href="https://www.facebook.com/mohammodrubel00"><img src="https://img.shields.io/badge/Facebook-mohammodrubel00-3b82f6?style=for-the-badge&logo=facebook&logoColor=white&labelColor=0a0f1f" alt="Facebook"/></a>
+<a href="mailto:md.rubel007@hotmail.com"><img src="https://img.shields.io/badge/Email-md.rubel007@hotmail.com-f472b6?style=for-the-badge&logo=microsoftoutlook&logoColor=white&labelColor=0a0f1f" alt="Email"/></a>
 
-      <View style={styles.rule} />
+</div>
 
-      {resume.professional.summary && (
-        <View style={styles.section}>
-          <Text style={styles.sLabel}>Profile</Text>
-          <Text style={styles.summary}>{resume.professional.summary}</Text>
-        </View>
-      )}
+<br/>
 
-      <View style={styles.twoCol}>
-        <View style={styles.mainCol}>
-          {resume.experience.length > 0 && (
-            <View style={styles.section}>
-              <Text style={styles.sLabel}>Experience</Text>
-              {resume.experience.map((job) => (
-                <View key={job.id} style={styles.expItem}>
-                  <View style={styles.expHeader}>
-                    <Text style={styles.expTitle}>{job.position}</Text>
-                    <Text style={styles.expDate}>
-                      {job.startDate} – {job.current ? 'PRESENT' : job.endDate}
-                    </Text>
-                  </View>
-                  <Text style={styles.expCompany}>{job.company}</Text>
-                  {job.description && <Text style={styles.expDesc}>{job.description}</Text>}
-                </View>
-              ))}
-            </View>
-          )}
-        </View>
-
-        <View style={styles.sideCol}>
-          {resume.skills.length > 0 && (
-            <View style={{ ...styles.section, marginBottom: 20 }}>
-              <Text style={styles.sLabel}>Skills</Text>
-              <View style={styles.skillsWrap}>
-                {resume.skills.map((skill, i) => (
-                  <Text key={i} style={styles.skillTag}>{skill}</Text>
-                ))}
-              </View>
-            </View>
-          )}
-
-          {resume.education.length > 0 && (
-            <View style={styles.section}>
-              <Text style={styles.sLabel}>Education</Text>
-              {resume.education.map((edu) => (
-                <View key={edu.id} style={styles.eduItem}>
-                  <Text style={styles.eduDegree}>{edu.degree} in {edu.field}</Text>
-                  <Text style={styles.eduSchool}>{edu.school}</Text>
-                  <Text style={styles.eduDate}>{edu.graduationDate}</Text>
-                  {edu.description && <Text style={{ ...styles.expDesc, marginTop: 4 }}>{edu.description}</Text>}
-                </View>
-              ))}
-            </View>
-          )}
-        </View>
-      </View>
-    </Page>
-  );
-};
+<div align="center"><img src="assets/footer.svg" width="100%" alt="Build, Learn, Create"/></div>
