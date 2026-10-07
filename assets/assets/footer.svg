@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="150" viewBox="0 0 900 150" role="img">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0a0f1f"/><stop offset="1" stop-color="#111936"/></linearGradient>
+  <linearGradient id="acc" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#22d3ee"/><stop offset="0.5" stop-color="#8b5cf6"/><stop offset="1" stop-color="#f472b6"/></linearGradient>
+  <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff" stop-opacity="0.10"/><stop offset="1" stop-color="#ffffff" stop-opacity="0.03"/></linearGradient>
+  <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#22d3ee" stop-opacity="0.7"/><stop offset="1" stop-color="#8b5cf6" stop-opacity="0.25"/></linearGradient>
+  <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <filter id="soft" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="30"/></filter>
+</defs><rect width="900" height="150" rx="22" fill="url(#bg)"/><line x1="120" y1="36" x2="780" y2="36" stroke="url(#acc)" stroke-width="2"/><text x="450" y="80" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="24" fill="url(#acc)" font-weight="800" text-anchor="middle" letter-spacing="8">BUILD  •  LEARN  •  CREATE</text><text x="450" y="108" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="14" fill="#9ca3af" font-weight="400" text-anchor="middle" >Thanks for visiting my profile!</text><line x1="120" y1="126" x2="780" y2="126" stroke="url(#acc)" stroke-width="2"/><circle cx="450" cy="36" r="4" fill="#22d3ee"><animate attributeName="cx" values="120;780;120" dur="6s" repeatCount="indefinite"/></circle></svg>
