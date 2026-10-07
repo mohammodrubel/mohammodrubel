@@ -1,115 +1,125 @@
 <div align="center">
 
-<img src="assets/hero.svg" alt="Md Rubel — Full-Stack Web Developer" width="100%"/>
+# Md Rubel
+
+**Full-Stack Web Developer** · Dhaka, Bangladesh
+
+Building scalable, secure and maintainable web applications with React, Next.js, Node.js and TypeScript.
 
 <br/>
 
-<a href="https://md-rubel-me-bice.vercel.app/"><img src="https://img.shields.io/badge/PORTFOLIO-0a0f1f?style=for-the-badge&logo=vercel&logoColor=22d3ee&labelColor=0a0f1f&color=22d3ee" alt="Portfolio"/></a>
-<a href="https://github.com/mohammodrubel"><img src="https://img.shields.io/badge/GITHUB-0a0f1f?style=for-the-badge&logo=github&logoColor=8b5cf6&labelColor=0a0f1f&color=8b5cf6" alt="GitHub"/></a>
-<a href="https://www.linkedin.com/in/mohammodrubel00/"><img src="https://img.shields.io/badge/LINKEDIN-0a0f1f?style=for-the-badge&logo=linkedin&logoColor=60a5fa&labelColor=0a0f1f&color=60a5fa" alt="LinkedIn"/></a>
-<a href="mailto:md.rubel007@hotmail.com"><img src="https://img.shields.io/badge/EMAIL-0a0f1f?style=for-the-badge&logo=microsoftoutlook&logoColor=f472b6&labelColor=0a0f1f&color=f472b6" alt="Email"/></a>
+<a href="https://md-rubel-me-bice.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-1F9DD4?style=flat-square&logo=vercel&logoColor=white" alt="Portfolio"/></a>
+<a href="https://github.com/mohammodrubel"><img src="https://img.shields.io/badge/GitHub-1F9DD4?style=flat-square&logo=github&logoColor=white" alt="GitHub"/></a>
+<a href="https://www.linkedin.com/in/mohammodrubel00/"><img src="https://img.shields.io/badge/LinkedIn-1F9DD4?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+<a href="mailto:md.rubel007@hotmail.com"><img src="https://img.shields.io/badge/Email-1F9DD4?style=flat-square&logo=microsoftoutlook&logoColor=white" alt="Email"/></a>
 
 <br/><br/>
 
-<img src="https://komarev.com/ghpvc/?username=mohammodrubel&label=PROFILE%20VIEWS&color=8b5cf6&style=flat-square&labelColor=0a0f1f" alt="Profile views"/>
+<img src="assets/orbit.svg" width="720" alt="Md Rubel surrounded by an orbit of the technologies he works with"/>
 
 </div>
 
 <br/>
 
-<div align="center"><img src="assets/h-about.svg" width="100%" alt="About"/></div>
-<div align="center"><img src="assets/about.svg" width="100%" alt="Developer profile card"/></div>
+## About
+
+| | |
+|---|---|
+| **Role** | Junior Full Stack Developer at Web Code Care (Mar 2024 – present) |
+| **Experience** | 3+ years across part-time and full-time roles |
+| **Focus** | React.js, Next.js and TypeScript on the front end; Node.js and Express.js REST APIs on the back end |
+| **Data** | PostgreSQL with Prisma · MongoDB with Mongoose |
+| **Education** | BBA (Marketing), National University, Dhaka |
+| **GitHub** | 189 public repositories · Pull Shark ×3 · Pair Extraordinaire ×3 |
 
 <br/>
 
-<div align="center"><img src="assets/h-stack.svg" width="100%" alt="Tech Stack"/></div>
-<div align="center"><img src="assets/stack.svg" width="100%" alt="Tech stack: frontend, backend, database, ORM/ODM, tools"/></div>
+## Currently Practicing
+
+<img src="https://img.shields.io/badge/C%20Programming-1F9DD4?style=flat-square&logo=c&logoColor=white" alt="C Programming"/>
 
 <br/>
 
-<div align="center"><img src="assets/h-orbit.svg" width="100%" alt="Technology Orbit"/></div>
-<div align="center"><img src="assets/orbit.svg" width="100%" alt="Animated technology orbit around Md Rubel"/></div>
+## Tech Stack
+
+**Frontend** &nbsp;
+<img src="https://img.shields.io/badge/React-1F9DD4?style=flat-square&logo=react&logoColor=white" alt="React"/>
+<img src="https://img.shields.io/badge/Next.js-1F9DD4?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js"/>
+<img src="https://img.shields.io/badge/TypeScript-1F9DD4?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/>
+<img src="https://img.shields.io/badge/JavaScript-1F9DD4?style=flat-square&logo=javascript&logoColor=white" alt="JavaScript"/>
+<img src="https://img.shields.io/badge/Tailwind%20CSS-1F9DD4?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind CSS"/>
+<img src="https://img.shields.io/badge/Redux%20Toolkit-1F9DD4?style=flat-square&logo=redux&logoColor=white" alt="Redux Toolkit"/>
+<img src="https://img.shields.io/badge/shadcn%2Fui-1F9DD4?style=flat-square&logo=shadcnui&logoColor=white" alt="shadcn/ui"/>
+<img src="https://img.shields.io/badge/Ant%20Design-1F9DD4?style=flat-square&logo=antdesign&logoColor=white" alt="Ant Design"/>
+
+**Backend** &nbsp;
+<img src="https://img.shields.io/badge/Node.js-1F9DD4?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js"/>
+<img src="https://img.shields.io/badge/Express.js-1F9DD4?style=flat-square&logo=express&logoColor=white" alt="Express.js"/>
+<img src="https://img.shields.io/badge/REST%20APIs-1F9DD4?style=flat-square&logo=postman&logoColor=white" alt="REST APIs"/>
+
+**Databases** &nbsp;
+<img src="https://img.shields.io/badge/PostgreSQL-1F9DD4?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
+<img src="https://img.shields.io/badge/MongoDB-1F9DD4?style=flat-square&logo=mongodb&logoColor=white" alt="MongoDB"/>
+<img src="https://img.shields.io/badge/Prisma-1F9DD4?style=flat-square&logo=prisma&logoColor=white" alt="Prisma"/>
+<img src="https://img.shields.io/badge/Mongoose-1F9DD4?style=flat-square&logo=mongoose&logoColor=white" alt="Mongoose"/>
+
+**Tools** &nbsp;
+<img src="https://img.shields.io/badge/Git-1F9DD4?style=flat-square&logo=git&logoColor=white" alt="Git"/>
+<img src="https://img.shields.io/badge/GitHub-1F9DD4?style=flat-square&logo=github&logoColor=white" alt="GitHub"/>
+<img src="https://img.shields.io/badge/VS%20Code-1F9DD4?style=flat-square&logo=visualstudiocode&logoColor=white" alt="VS Code"/>
+<img src="https://img.shields.io/badge/Postman-1F9DD4?style=flat-square&logo=postman&logoColor=white" alt="Postman"/>
+<img src="https://img.shields.io/badge/ClickUp-1F9DD4?style=flat-square&logo=clickup&logoColor=white" alt="ClickUp"/>
 
 <br/>
 
-<div align="center"><img src="assets/h-stats.svg" width="100%" alt="GitHub Dashboard"/></div>
+## Experience
+
+**Junior Full Stack Developer** · Web Code Care, Dhaka · *Mar 2024 – present*
+- Built responsive, reusable UI components and RESTful APIs; integrated third-party APIs
+- Designed relational databases with optimized queries; fixed bugs and tuned performance
+- Worked with designers, senior developers and PMs on code reviews, testing and deployment
+- Stack: React, Next.js, Node.js, Express, PostgreSQL, Prisma, Tailwind
+
+**Junior MERN Stack Developer (part-time)** · Cynocraft, Dhaka · *Jan 2023 – Jun 2023*
+- Developed and maintained MERN web apps with a focus on responsiveness and performance
+- API development and integration; debugging and troubleshooting for stability
+- Stack: MongoDB, Express, React, Node.js
+
+<br/>
+
+## GitHub
 
 <div align="center">
 
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=mohammodrubel&show_icons=true&theme=tokyonight&bg_color=0a0f1f&title_color=22d3ee&icon_color=8b5cf6&text_color=cbd5e1&border_color=1e2a52&hide_border=false&count_private=true&include_all_commits=true&rank_icon=github" alt="GitHub stats"/>
-<img height="180" src="https://streak-stats.demolab.com/?user=mohammodrubel&theme=tokyonight&background=0a0f1f&ring=22d3ee&fire=f472b6&currStreakLabel=22d3ee&border=1e2a52&hide_border=false" alt="GitHub streak"/>
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=mohammodrubel&show_icons=true&hide_border=true&theme=transparent&title_color=1F9DD4&icon_color=1F9DD4&text_color=6e7681&count_private=true&include_all_commits=true" alt="GitHub stats"/>
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mohammodrubel&layout=compact&langs_count=6&hide_border=true&theme=transparent&title_color=1F9DD4&text_color=6e7681" alt="Top languages"/>
 
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=mohammodrubel&bg_color=0a0f1f&color=22d3ee&line=8b5cf6&point=f472b6&area=true&area_color=8b5cf6&hide_border=true&title_color=22d3ee&custom_title=Contribution%20Activity" alt="Contribution activity graph"/>
-
-</div>
-
-<div align="center">
-<sub>Live cards — they read directly from GitHub each time this page loads.</sub>
-</div>
+<img height="170" src="https://streak-stats.demolab.com/?user=mohammodrubel&theme=transparent&hide_border=true&ring=1F9DD4&fire=1F9DD4&currStreakLabel=1F9DD4&currStreakNum=6e7681&sideNums=6e7681&sideLabels=6e7681&dates=6e7681" alt="GitHub streak"/>
 
 <br/>
 
-<div align="center"><img src="assets/h-langs.svg" width="100%" alt="Languages I Use"/></div>
-
-<div align="center">
-
-<img height="190" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mohammodrubel&layout=compact&langs_count=8&theme=tokyonight&bg_color=0a0f1f&title_color=22d3ee&text_color=cbd5e1&border_color=1e2a52&hide_border=false" alt="Top languages"/>
+<img width="100%" src="https://ghchart.rshah.org/1F9DD4/mohammodrubel" alt="Contribution calendar for mohammodrubel"/>
 
 </div>
 
 <br/>
 
-<div align="center"><img src="assets/h-data.svg" width="100%" alt="Databases and Data"/></div>
-<div align="center"><img src="assets/databases.svg" width="100%" alt="PostgreSQL with Prisma ORM, MongoDB with Mongoose ODM"/></div>
-
-<br/>
-
-<div align="center"><img src="assets/h-projects.svg" width="100%" alt="Featured Projects"/></div>
-
-<div align="center">
-<table>
-  <tr>
-    <td align="center" width="33%">
-      <img src="assets/p1.svg" width="100%" alt="BSSAJ"/><br/>
-      <a href="https://bssaj.org/"><img src="https://img.shields.io/badge/LIVE%20DEMO-0a0f1f?style=for-the-badge&logo=googlechrome&logoColor=22d3ee&color=22d3ee" alt="BSSAJ live demo"/></a>
-    </td>
-    <td align="center" width="33%">
-      <img src="assets/p2.svg" width="100%" alt="SolveMeet"/><br/>
-      <a href="https://www.solvemeet.com/"><img src="https://img.shields.io/badge/LIVE%20DEMO-0a0f1f?style=for-the-badge&logo=googlechrome&logoColor=8b5cf6&color=8b5cf6" alt="SolveMeet live demo"/></a>
-    </td>
-    <td align="center" width="33%">
-      <img src="assets/p3.svg" width="100%" alt="Memory and Stories"/><br/>
-      <a href="https://memoryandstories.com/"><img src="https://img.shields.io/badge/LIVE%20DEMO-0a0f1f?style=for-the-badge&logo=googlechrome&logoColor=f472b6&color=f472b6" alt="Memory and Stories live demo"/></a>
-    </td>
-  </tr>
-</table>
-</div>
-
-<br/>
-
-<div align="center"><img src="assets/h-exp.svg" width="100%" alt="Experience"/></div>
-<div align="center"><img src="assets/experience.svg" width="100%" alt="Career timeline: Web Code Care, Cynocraft"/></div>
-
-<br/>
-
-<div align="center"><img src="assets/h-highlights.svg" width="100%" alt="Highlights"/></div>
-<div align="center"><img src="assets/highlights.svg" width="100%" alt="Highlights: years of experience, live sites, repositories, GitHub achievements"/></div>
-
-<br/>
-
-<div align="center"><img src="assets/h-connect.svg" width="100%" alt="Connect"/></div>
+## Connect
 
 <div align="center">
 
-<a href="https://md-rubel-me-bice.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-md--rubel--me--bice.vercel.app-22d3ee?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0a0f1f" alt="Portfolio"/></a>
-<a href="https://github.com/mohammodrubel"><img src="https://img.shields.io/badge/GitHub-mohammodrubel-8b5cf6?style=for-the-badge&logo=github&logoColor=white&labelColor=0a0f1f" alt="GitHub"/></a>
-<br/>
-<a href="https://www.linkedin.com/in/mohammodrubel00/"><img src="https://img.shields.io/badge/LinkedIn-mohammodrubel00-60a5fa?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0a0f1f" alt="LinkedIn"/></a>
-<a href="https://www.facebook.com/mohammodrubel00"><img src="https://img.shields.io/badge/Facebook-mohammodrubel00-3b82f6?style=for-the-badge&logo=facebook&logoColor=white&labelColor=0a0f1f" alt="Facebook"/></a>
-<a href="mailto:md.rubel007@hotmail.com"><img src="https://img.shields.io/badge/Email-md.rubel007@hotmail.com-f472b6?style=for-the-badge&logo=microsoftoutlook&logoColor=white&labelColor=0a0f1f" alt="Email"/></a>
+| | |
+|:--|:--|
+| **Portfolio** | [md-rubel-me-bice.vercel.app](https://md-rubel-me-bice.vercel.app/) |
+| **GitHub** | [github.com/mohammodrubel](https://github.com/mohammodrubel) |
+| **LinkedIn** | [linkedin.com/in/mohammodrubel00](https://www.linkedin.com/in/mohammodrubel00/) |
+| **Facebook** | [facebook.com/mohammodrubel00](https://www.facebook.com/mohammodrubel00) |
+| **Email** | [md.rubel007@hotmail.com](mailto:md.rubel007@hotmail.com) |
 
 </div>
 
 <br/>
 
-<div align="center"><img src="assets/footer.svg" width="100%" alt="Build, Learn, Create"/></div>
+<div align="center">
+<sub>Build · Learn · Create</sub>
+</div>
