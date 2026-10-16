@@ -67,6 +67,10 @@
 
 <br/>
 
+<div align="center"><img src="assets/h-highlights.svg" width="100%" alt="Highlights"/></div>
+<div align="center"><img src="assets/highlights.svg" width="100%" alt="Highlights: years of experience, repositories, GitHub achievements"/></div>
+
+<br/>
 
 <div align="center"><img src="assets/h-connect.svg" width="100%" alt="Connect"/></div>
 
