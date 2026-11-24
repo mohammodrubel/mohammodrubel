@@ -57,7 +57,7 @@ Turning ideas into clean, efficient code with 3+ years of hands-on experience ac
 <br/>
 
 <div align="center"><img src="assets/h-langs.svg" width="100%" alt="Languages I Use"/></div>
-<div align="center"><img src="assets/languages.svg" width="100%" alt="Languages: JavaScript, TypeScript, HTML5, CSS3, SQL; learning C and C++"/></div>
+<div align="center"><img src="assets/languages.svg?v=2" width="100%" alt="Languages: JavaScript, TypeScript, HTML5, CSS3, SQL; learning C and C++"/></div>
 
 <div align="center">
 
@@ -73,7 +73,7 @@ Turning ideas into clean, efficient code with 3+ years of hands-on experience ac
 <br/>
 
 <div align="center"><img src="assets/h-exp.svg" width="100%" alt="Experience"/></div>
-<div align="center"><img src="assets/experience.svg" width="100%" alt="Career timeline: Web Code Care, Cynocraft"/></div>
+<div align="center"><img src="assets/experience.svg?v=2" width="100%" alt="Career timeline: Web Code Care, Cynocraft"/></div>
 
 <br/>
 
