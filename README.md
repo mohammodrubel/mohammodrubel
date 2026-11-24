@@ -57,6 +57,7 @@ Turning ideas into clean, efficient code with 3+ years of hands-on experience ac
 <br/>
 
 <div align="center"><img src="assets/h-langs.svg" width="100%" alt="Languages I Use"/></div>
+<div align="center"><img src="assets/languages.svg" width="100%" alt="Languages: JavaScript, TypeScript, HTML5, CSS3, SQL; learning C and C++"/></div>
 
 <div align="center">
 
