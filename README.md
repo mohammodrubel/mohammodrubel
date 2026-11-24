@@ -2,10 +2,11 @@
 
 # Md Rubel
 
-### Full-Stack Web Developer
+### Full-Stack Web Developer · React · Next.js · TypeScript · Node.js
 
-Passionate about building scalable, production-ready web applications — from pixel-perfect frontends to robust backend APIs.
-Turning ideas into clean, efficient code with 3+ years of hands-on experience across the full stack.
+I build scalable, production-ready web applications — from pixel-perfect frontends to robust backend APIs.
+3+ years of hands-on experience across the full stack, with PostgreSQL and MongoDB on the data side.
+Currently learning C and C++ to strengthen my programming fundamentals.
 
 ---
 
